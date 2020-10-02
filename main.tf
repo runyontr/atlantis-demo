@@ -2,6 +2,8 @@ provider "kubernetes" {
   load_config_file = "false"
 }
 
+resource "null_resource" "example" {}
+
 
 # resource "kubernetes_deployment" "pod_info" {
 #     # stefanprodan/podinfo
